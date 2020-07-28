@@ -4,7 +4,9 @@ const ig = require('./instagram');
 (async () => {
     await ig.initialize();
 
-    await ig.login('bamgamesofc', 'f1a6r2a7bam');
+    await ig.login('YourUsername', 'YourPassword');
+
+    await ig.likeTagsProcess(['warzone', 'callofduty']);
 
     debugger;
 
