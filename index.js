@@ -1,13 +1,11 @@
 const ig = require('./instagram');
 
-
 (async () => {
-    await ig.initialize();
+  await ig.initialize();
 
-    await ig.login('YourUsername', 'YourPassword');
+  await ig.login('yourlogin', 'youpassword!');
 
-    await ig.likeTagsProcess(['warzone', 'callofduty']);
+  await ig.likeTagsProcess(['gamer', 'tech', 'setup']);
 
-    debugger;
-
+  debugger;
 })();
